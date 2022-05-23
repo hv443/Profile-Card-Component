@@ -14,8 +14,9 @@ body {
 }
 
 p {
-  font-size: 15px;
+  font-size: 14px;
   color: hsl(0deg, 0%, 59%);
+  font-weight: 500;
 }
 
 .main--container {
@@ -79,4 +80,12 @@ p {
   align-items: center;
   flex-direction: row;
   margin: 2rem;
+}
+.card--social-info strong {
+  display: inline-block;
+  margin-bottom: 0.2rem;
+}
+.card--social-info p {
+  letter-spacing: 2px;
+  font-size: 10px;
 }/*# sourceMappingURL=style.css.map */

@@ -15,8 +15,9 @@ body {
 }
 
 p {
-  font-size: 15px;
+  font-size: 14px;
   color: hsl(0, 0%, 59%);
+  font-weight: 500;
 }
 
 .main--container {
@@ -88,4 +89,14 @@ p {
   flex-direction: row;
 
   margin: 2rem;
+
+  strong {
+    display: inline-block;
+    margin-bottom: 0.2rem;
+  }
+
+  p {
+    letter-spacing: 2px;
+    font-size: 10px;
+  }
 }
