@@ -33,7 +33,7 @@ p {
 }
 @media screen and (max-width: 450px) {
   .main--container {
-    background-position: 130% 300%, -30% -200%;
+    background-position: 130% 150%, -20% -100%;
   }
 }
 
