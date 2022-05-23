@@ -54,16 +54,17 @@ p {
 .card--profile {
   border-bottom: 1px solid hsla(0, 0%, 59%, 0.377);
 
-  .card--profile-img {
+  position: relative;
+
+  img {
+    border-radius: 50%;
     left: 50%;
-    top: 40%;
-    transform: translate(-50%, -50%);
+    top: 50%;
+    transform: translate(-50%, -150%);
     position: absolute;
-    img {
-      border-radius: 50%;
-      border: 5px solid white;
-    }
+    border: 5px solid white;
   }
+
   .name {
     margin-top: 4rem;
     margin-bottom: 0.5rem;
