@@ -18,15 +18,20 @@ p {
   font-size: 14px;
   color: hsl(0, 0%, 59%);
   font-weight: 500;
+  cursor: pointer;
 }
 
 .main--container {
+  @media screen and (max-width: 450px) {
+    background-position: 130% 300%, -30% -200%;
+  }
+
   width: inherit;
   height: inherit;
   background-image: url(../images/bg-pattern-top.svg),
     url(../images/bg-pattern-bottom.svg);
   background-repeat: no-repeat;
-  background-position: -100% 150%, 200% -70%;
+  background-position: -100% 150%, 150% -70%;
   background-color: hsl(185, 75%, 39%);
 
   display: flex;
@@ -93,6 +98,7 @@ p {
   strong {
     display: inline-block;
     margin-bottom: 0.2rem;
+    cursor: pointer;
   }
 
   p {

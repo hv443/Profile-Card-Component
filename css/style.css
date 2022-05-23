@@ -17,6 +17,7 @@ p {
   font-size: 14px;
   color: hsl(0deg, 0%, 59%);
   font-weight: 500;
+  cursor: pointer;
 }
 
 .main--container {
@@ -24,11 +25,16 @@ p {
   height: inherit;
   background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
   background-repeat: no-repeat;
-  background-position: -100% 150%, 200% -70%;
+  background-position: -100% 150%, 150% -70%;
   background-color: hsl(185deg, 75%, 39%);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media screen and (max-width: 450px) {
+  .main--container {
+    background-position: 130% 300%, -30% -200%;
+  }
 }
 
 .card {
@@ -84,6 +90,7 @@ p {
 .card--social-info strong {
   display: inline-block;
   margin-bottom: 0.2rem;
+  cursor: pointer;
 }
 .card--social-info p {
   letter-spacing: 2px;
