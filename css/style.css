@@ -48,7 +48,7 @@ p {
 }
 
 .card--profile {
-  border-bottom: 1px solid hsl(0deg, 0%, 59%);
+  border-bottom: 1px solid hsla(0deg, 0%, 59%, 0.377);
 }
 .card--profile .card--profile-img {
   left: 50%;
