@@ -23,7 +23,7 @@ p {
 
 .main--container {
   @media screen and (max-width: 450px) {
-    background-position: 130% 150%, -20% -100%;
+    background-position: -200vw -80vh, 40vw 40vh;
   }
 
   width: inherit;
@@ -31,7 +31,7 @@ p {
   background-image: url(../images/bg-pattern-top.svg),
     url(../images/bg-pattern-bottom.svg);
   background-repeat: no-repeat;
-  background-position: -100% 150%, 150% -70%;
+  background-position: -25vw -80vh, 50vw 50vh;
   background-color: hsl(185, 75%, 39%);
 
   display: flex;
